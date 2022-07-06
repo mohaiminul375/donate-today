@@ -1,26 +1,26 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: ;
+    font-family: 'Oxygen', sans-serif;
 }
 
 /* banner */
 #banner {
-    background-image: url(images/donation7.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.73)), url(images/donation7.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 80vh;
     width: 100%;
     box-sizing: border-box;
-
     /* justify-content: center; */
     flex-wrap: wrap;
 }
 
 #banner-content-area {
     height: 100%;
-    color: wheat;
+    color: rgba(255, 255, 255, 0.815);
+    font-weight: 100;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -37,30 +37,30 @@ body {
 }
 
 #banner-content p {
-    font-size: 20px;
+    font-size: 21px;
 }
 
 /* banner button */
-.banner-btn {
+.donate-btn {
     margin-top: 15px;
     padding: 20px 15px;
     border-radius: 10px;
     background-color: #ff5959;
 }
 
-.banner-btn a {
+.donate-btn a {
     text-decoration: none;
     color: black;
     font-size: 18px;
 }
 
-.banner-btn:hover {
+.donate-btn:hover {
     padding: 20px 20px;
     border-radius: 20px;
 
 }
 
-.banner-btn a:hover {
+.donate-btn a:hover {
     color: wheat;
 }
 
@@ -110,9 +110,9 @@ body {
     border-radius: 10px;
 }
 
-.donate-btn {
+/* .donate-btn {
     margin-top: 80px;
-}
+} */
 
 hr {
     margin: 0px 70px;
