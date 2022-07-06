@@ -6,7 +6,7 @@ body {
 
 /* banner */
 #banner {
-    background-image:linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.73)), url(images/donation7.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.73)), url(images/donation7.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -57,7 +57,6 @@ body {
 .donate-btn:hover {
     padding: 20px 20px;
     border-radius: 20px;
-
 }
 
 .donate-btn a:hover {
@@ -70,27 +69,28 @@ body {
 /* donation */
 #donation {
     margin-top: 100px;
-      
 }
 
 #donation-text-area {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #donation-text {
     text-align: center;
 }
-h1{
+
+h1 {
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
-p{
+
+p {
     font-size: 20px;
 }
+
+/* h1 and p tag value will be applied whole website without declare individual value */
 
 /* donation amount */
 #donation-amount {
@@ -98,7 +98,6 @@ p{
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-bottom: 100px;
-
 }
 
 .amount {
@@ -112,23 +111,23 @@ p{
 .amount h2 {
     text-align: center;
     font-size: 25px;
-
 }
 
 .amount:hover {
     border: 3px solid black;
     border-radius: 10px;
     background-color: #d412123b;
+    box-shadow: none;
 }
 
-#manual-donate{
+#manual-donate {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#input-amount{
+#input-amount {
     width: 800px;
     text-align: center;
     border-top: hidden;
@@ -139,7 +138,7 @@ p{
 /* doonation */
 
 /* donate-plan */
-#donate-plan{
+#donate-plan {
     margin-top: 100px;
 }
 
@@ -149,6 +148,7 @@ p{
     justify-content: center;
     align-items: center;
 }
+
 .plan-title {
     text-align: center;
 
@@ -170,12 +170,12 @@ p{
     text-align: justify;
 
 }
-.plan-discription a{
+
+.plan-discription a {
     text-decoration: none;
     color: rgb(255, 174, 0);
 
 }
-
 
 .bg1 {
     background-color: rgba(10, 7, 7, 0.103);
@@ -186,73 +186,82 @@ p{
 }
 
 .bg3 {
-    background-color:rgba(53, 2, 38, 0.1) ;
+    background-color: rgba(53, 2, 38, 0.1);
 }
+
 /* donate-plan */
 
 /* join-us */
-#join-us{
-    margin: 100px 20px  0px 20px;
+#join-us {
+    margin: 100px 20px 0px 20px;
     background-color: black;
     border-radius: 5px;
 }
-#join-us-container{
+
+#join-us-container {
     display: flex;
     justify-content: space-evenly;
 }
-.join-img{
+
+.join-img {
     padding-left: 25px;
 }
-.join-img img{
+
+.join-img img {
     width: 70%;
-
 }
 
-.join-text{
-text-align: center;
+.join-text {
+    text-align: center;
 }
 
-.join-size{
+.join-size {
     width: 50%;
 }
-.join-text h1{
+
+.join-text h1 {
     font-size: 50px;
     color: crimson;
 }
-.join-text p{
+
+.join-text p {
     font-size: 30px;
     color: hotpink;
 }
-.btn-join{
+
+.btn-join {
     padding: 20px 20px;
-    background-image: linear-gradient(white,red);
+    background-image: linear-gradient(white, red);
     border-radius: 5px;
 }
-.btn-join a{
+
+.btn-join a {
     text-decoration: none;
     color: black;
     font-weight: 700;
 }
-.btn-join:hover{
+
+.btn-join:hover {
     padding: 20px 50px;
     border-radius: 100px;
 }
+
 /* join-us */
 /* Email-section */
 
-#email{
+#email {
     margin-top: 100px;
 }
-.email-contant{
+
+.email-contant {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.email-text{
-    text-align: center;
-    
-}
-.email-input{
+
+
+
+.email-input {
     height: 200px;
     width: 900px;
     margin: 0 auto;
@@ -260,35 +269,40 @@ text-align: center;
     justify-content: center;
     align-items: center;
     background-color: rgb(250, 215, 215);
-    
 }
-#input-mail{
+
+#input-mail {
     height: 30px;
     width: 400px;
 }
-#email-btn{
+
+#email-btn {
     padding: 10px;
     background-color: coral;
 }
-#email-btn a{
+
+#email-btn a {
     text-decoration: none;
     color: black;
 }
 
 /* email-section */
 /* footer */
-footer{
+footer {
     background-color: black;
     margin-top: 50px;
     margin-bottom: 0px;
     text-align: center;
 }
-footer h1{
+
+footer h1 {
     color: whitesmoke;
     font-size: 20px;
 }
-footer p{
+
+footer p {
     color: aqua;
     font-size: 13px;
 }
+
 /* footer */
