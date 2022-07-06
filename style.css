@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+
+/* banner */
+#banner {
+    background-image: url(images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    box-sizing: border-box;
+
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+
+#banner-content-area {
+    height: 100%;
+    color: wheat;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#banner-content {
+    text-align: center;
+}
+
+#banner-content h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#banner-content p {
+    font-size: 20px;
+}
+
+/* banner button */
+.banner-btn {
+    margin-top: 15px;
+    padding: 20px 15px;
+    border-radius: 10px;
+    background-color: #ff5959;
+}
+
+.banner-btn a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.banner-btn:hover {
+    padding: 20px 20px;
+    border-radius: 20px;
+
+}
+
+.banner-btn a:hover {
+    color: wheat;
+}
+
+/* banner button  */
+
+
+/* donation */
+#donation {
+    margin-top: 200px;
+}
+
+.donation-text-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#donation-text {
+    text-align: center;
+}
+
+/* donation amount */
+.donation-amount {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+#amount {
+    margin-top: 50px;
+    border: 3px solid black;
+    width: 135px;
+    height: 123px;
+    background-color: #ff5959;
+    box-shadow: 10px 30px 50px black;
+}
+
+#amount h1 {
+    text-align: center;
+
+}
+
+#amount:hover {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.donate-btn {
+    margin-top: 80px;
+}
+
+hr {
+    margin: 0px 70px;
+    color: rgb(218, 218, 218, 1);
+}
+
+.donate-btn-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-text h4 {
+    color: #707070;
+}
+
+#donate-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#donation {
+    margin: top 200px;
+}
+
+.discription-plan {
+    width: 350px;
+    border: 2px solid black;
+    justify-content: center;
+
+}
+
+.donate-plan-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-title {
+    text-align: center;
+
+}
+
+.bg1 {
+    background-color: rgb(30, 30, 30,0.1);
+}
+
+.bg2 {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+.bg3 {
+    background-color:rgba(79, 157, 166, 0.1) ;
+}
