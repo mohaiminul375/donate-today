@@ -128,7 +128,7 @@ p{
     align-items: center;
 }
 
-input{
+#input-amount{
     width: 800px;
     text-align: center;
     border-top: hidden;
@@ -165,6 +165,7 @@ input{
 .plan-discription {
     width: 350px;
     border: 2px;
+    padding: 20px;
     justify-content: center;
     text-align: justify;
 
@@ -188,3 +189,92 @@ input{
     background-color:rgba(53, 2, 38, 0.1) ;
 }
 /* donate-plan */
+
+/* join-us */
+#join-us{
+    margin: 100px 20px  0px 20px;
+    background-color: black;
+    border-radius: 5px;
+}
+#join-us-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.join-img{
+    padding-left: 25px;
+}
+.join-img img{
+    width: 70%;
+
+}
+
+.join-text{
+text-align: center;
+}
+
+.join-size{
+    width: 50%;
+}
+.join-text h1{
+    font-size: 50px;
+    color: crimson;
+}
+.join-text p{
+    font-size: 30px;
+    color: hotpink;
+}
+.btn-join{
+    padding: 20px 20px;
+    background-image: linear-gradient(white,red);
+    border-radius: 5px;
+}
+.btn-join a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.btn-join:hover{
+    padding: 20px 50px;
+    border-radius: 100px;
+}
+/* join-us */
+/* Email-section */
+
+#email{
+    margin-top: 100px;
+}
+.email-contant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-text{
+    text-align: center;
+    
+}
+.email-input{
+    background-color: black;
+    height: 200px;
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    
+}
+.email{
+    
+}
+#input-mail{
+    height: 30px;
+    width: 400px;
+}
+#email-btn{
+    padding: 10px;
+    background-color: coral;
+}
+#email-btn a{
+    text-decoration: none;
+    color: black;
+}
