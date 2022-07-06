@@ -258,7 +258,9 @@ p {
     justify-content: center;
     align-items: center;
 }
-
+.email-text{
+    text-align: center;
+}
 
 
 .email-input {
